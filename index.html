@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="discount">
+      <a href="#">NEW YEAR SALE! 20% OFF SELECTED WALLPAPERS !</a>
+      <button class="btn" onclick="closePopUp()">
+        <snap class="material-symbols-outlined">close</snap>
+      </button>
+    </div>
+
+    <header id="header">
+      <div class="grid-element">
+        <img src="./img/wallpaperit-Logo.png" alt="logo" />
+      </div>
+
+      <div id="search-bar-box" class="grid-element">
+        <div id="search-bar">
+          <input type="text" placeholder="Search for products..." />
+          <button type="submit" class="btn">
+            <span class="material-symbols-outlined">search</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="options" class="grid-element">
+        <nav class="option">
+          <span class="material-symbols-outlined">account_circle</span>
+          <span>Sign In</span>
+        </nav>
+        <nav class="option">
+          <span class="material-symbols-outlined">favorite_border</span>
+          <span>Wishlist</span>
+        </nav>
+        <nav class="option">
+          <span class="material-symbols-outlined">shopping_bag</span>
+          <span>Bag</span>
+        </nav>
+      </div>
+    </header>
+
+    <ul id="dropdown-menu">
+      <li>
+        <a>WALLPAPER</a>
+        <ul class="dropdown">
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+          <li><a href="#">Option 3</a></li>
+          <li><a href="#">Option 4</a></li>
+          <li><a href="#">Option 5</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>PAINT</a>
+        <ul class="dropdown">
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+          <li><a href="#">Option 3</a></li>
+          <li><a href="#">Option 4</a></li>
+          <li><a href="#">Option 5</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>BRANDS</a>
+        <ul class="dropdown">
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+          <li><a href="#">Option 3</a></li>
+          <li><a href="#">Option 4</a></li>
+          <li><a href="#">Option 5</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>WALL MURALS</a>
+      </li>
+      <li>
+        <a>WALL ART</a>
+        <ul class="dropdown">
+          <li><a href="#">Option 1</a></li>
+          <li><a href="#">Option 2</a></li>
+          <li><a href="#">Option 3</a></li>
+          <li><a href="#">Option 4</a></li>
+          <li><a href="#">Option 5</a></li>
+        </ul>
+      </li>
+      <li>
+        <a>SALE</a>
+      </li>
+    </ul>
+
+    <div id="percs">
+      <a id="perc-one">Free Delivery On All Orders Over £50</a>
+      <a id="perc-two">Customers Rate Us 4.7 / 5</a>
+      <a id="perc-three">Order by 8pm For Next Day Delivery</a>
+    </div>
+
+    <div id="banner">
+      <img src="./img/envy-homepage-banner-left-image.jpg" id="left" />
+      <div id="center">
+        <!-- import svg from file -->
+        <img
+          class="banner-element"
+          src="./img/envy-homepage-banner-sinful-style.svg"
+        />
+        <button id="banner-btn" class="banner-element">SHOP WALLPAPER</button>
+        <img class="banner-element" src="./img/envy-homepage-banner-logo.svg" />
+      </div>
+      <img src="./img/envy-homepage-banner-right-image.jpg" id="right" />
+    </div>
+
+    <div id="brands">
+      <div id="upper-part">
+        <p>Our Brands</p>
+        <div id="buttons">
+          <button class="btn" onclick="prev()">
+            <span class="material-symbols-outlined"> arrow_back_ios </span>
+          </button>
+          <button class="btn" onclick="next()">
+            <span class="material-symbols-outlined"> arrow_forward_ios </span>
+          </button>
+        </div>
+      </div>
+      <div id="slider-cantainer">
+        <div id="slider">
+          <img
+            class="logo"
+            src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw6f6b64d3/wallpaperit/images/la-logo.png"
+          />
+          <img
+            class="logo"
+            src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw7d4325c4/wallpaperit/images/next-logo.png"
+          />
+          <img
+            class="logo"
+            src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw012465cf/wallpaperit/images/joules-logo.png"
+          />
+          <img
+            class="logo"
+            src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dwc4fd9e3c/wallpaperit/images/sfe-logo.png"
+          />
+          <img
+            class="logo"
+            src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw3905cd53/wallpaperit/images/sfep-logo.png"
+          />
+          <img
+            class="logo"
+            src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw98284a34/wallpaperit/images/contour-logo.png"
+          />
+          <img
+            class="logo"
+            src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dwb0c88316/wallpaperit/images/boutique-logo.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="image-grid">
+      <img id="one" src="./img/Joules_Sub_Banner.jpg" />
+      <img id="two" src="./img/sfe-paint-hpg.jpg" />
+      <img id="three" src="./img/new_2021.jpg" />
+      <img id="four" src="./img/WPITGrid_WallMurals.jpg" />
+      <img id="five" src="./img/geo_2021.jpg" />
+      <img id="six" src="./img/grey_2021.jpg" />
+      <img id="seven" src="./img/blue_2021.jpg" />
+      <img id="eight" src="./img/kids_2021.jpg" />
+    </div>
+
+    <div id="welcome-section">
+      <div id="welcome-logo">
+        <h1>Welcome to Wallpaper</h1>
+        <h1 id="it">it</h1>
+      </div>
+      <p>
+        Designed in our studio, our fun, bright and affordable wallpapers are an
+        easy and stress-free way to transform your house into a home. Too good
+        to be true?
+      </p>
+      <p id="last">Have a little scroll and see for yourself…</p>
+      <img src="./img/wi-fav.webp" />
+    </div>
+
+    <div id="show-section-one">
+      <img
+        id="showcase"
+        src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw309f068b/images/twilight-ditsy-antique-hpb.jpg"
+      />
+      <div id="content">
+        <img src="./img/joules-logo.svg" />
+        <h1>Take the colorful path</h1>
+        <button>SHOP WALLPAPER</button>
+      </div>
+    </div>
+    <div id="show-section-two">
+      <img
+        id="showcase-one"
+        src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw4c01138e/images/retroshapes-next.jpg"
+      />
+      <div id="content-two">
+        <img
+          src="https://www.wallpaper-it.com/on/demandware.static/-/Library-Sites-Library-Wallpaper/default/dw4430f45d/images/next-logo.png"
+        />
+        <h1>WALLPAPER & PAINT</h1>
+        <div id="content-one-btns">
+          <button>SHOP WALLPAPER</button>
+          <button>SHOP PAINT</button>
+        </div>
+      </div>
+      <img id="showcase-two" src="./img/ochreyellow-next.jpg" />
+    </div>
+  </body>
+</html>
